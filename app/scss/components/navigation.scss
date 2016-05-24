@@ -1,0 +1,70 @@
+@import 'settings.scss';
+
+.navigation {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #e1e8ed;
+  background-image: url(https://abs.twimg.com/a/1458003619/img/t1/lohp_streams_header_bg_v4.png);
+  background-size: 100%;
+  top: 0px;
+  height: 48px;
+  z-index: 999999999;
+  background-repeat: none;
+  background-position: center;
+  font-size: 12px;
+  a{
+    text-decoration: none;
+  }
+}
+.buttonNav{
+  border-radius: 3px;
+  border: 0;
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-weight: 200;
+  float: right;
+  height: 26px;
+  margin-left: 10px;
+    &:hover{
+      background-color: #fff;
+    }
+    &:hover a{
+      color: #1da1f2;
+    }
+    a{
+      padding: 0px;
+      text-align: center;
+      border: 0px;
+
+    }
+    a:hover{
+      border: 0px;
+
+    }
+}
+  .navigation__item {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    margin: 0px;
+    padding:5px;
+  }
+  .navigation__item:hover, .navigation__item:active{
+    text-decoration: none;
+    border-bottom: 4px solid rgb(19,139,242);
+  }
+  .navigation__item:hover{
+    color: #fff;
+  }
+    .navigation__item--logo {
+      color: #fff;
+      float: left;
+    }
+
+    .navigation__item--active {
+      border-bottom: 4px solid rgb(19,139,242);
+    }

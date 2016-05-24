@@ -1,0 +1,20 @@
+@import 'settings.scss';
+
+.articles {
+  padding-top: 55px;
+  padding-left: 25px;
+}
+
+h1{
+  text-align: center;
+}
+
+  .articles__header {
+    color: $color-black;
+    font-size: $font-large;
+    text-align: center;
+  }
+
+  .articles__description {
+    font-size: $font-medium;
+  }

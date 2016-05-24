@@ -1,0 +1,31 @@
+@import 'settings.scss';
+
+
+
+.blog{
+	width: 100%;
+	height:100%;
+	background-color: 'rgba(100,120,230,.4)';
+}
+h1{
+	font-size: 28px;
+}
+
+.blog__title{
+	display: none;
+}
+.blog__container{
+	background:#ECF0F1;
+	height:100%;
+	width:100%;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+
+.blog_subContainer{
+	margin-top:10px;
+
+}

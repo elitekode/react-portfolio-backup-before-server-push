@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.tmp
+server/config/secrets.js
+.idea
+public
+.swp
+app/images
